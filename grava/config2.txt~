@@ -1,0 +1,5 @@
+GMM file=/home/roberto/Desktop/IC/gmmadapt/gmmadapt/Fernando_gmmadapt.dat
+UBM file=/home/roberto/Desktop/IC/speakerid_1/ubm.dat
+Number of Gaussians=8
+Dimension of feature vectors=36
+Utterance=/home/roberto/Desktop/IC/calcpar/roberto.mfc

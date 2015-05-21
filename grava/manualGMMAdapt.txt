@@ -1,0 +1,19 @@
+GMMADAPT: TREINA OS GMMS através de uma adaptação do ubm.
+
+./gmmadapt config.txt
+
+A estrutura do config.txt é a seguinte:
+
+Number of Gaussians=4
+Dimension of feature vectors=3
+Output filename=ubm.dat
+Training utterances=names.txt
+
+"Number of Gaussians" é o número de gaussianas na mistura. Use o mesmo que usou para os HMMs.
+
+"Dimension of feature vectors": acho que no seu caso é 36 (12 mel + 12 delta-mel + 12 delta-delta mel).
+
+"Output filename": nome do arquivo onde serão armazenados os dados do GMM treinado. Esse você escolhe do jeito que achar mais conveniente.
+
+"Training utterances" nome de um arquivo texto com os nomes dos arquivos que armazenam as locuções de treinamento PARAMETRIZADAS. Observe que não são os arquivo .wav, e sim os arquivos com mel+delta+deltadelta. 
+

@@ -1,0 +1,26 @@
+SPEAKERID: TREINA OS GMMS
+
+./treinagmm config.txt
+
+A estrutura do config.txt é a seguinte:
+
+Inicialization=SegmentalKMeans
+Pre-trained GMM=ubm.dat
+Number of Gaussians=4
+Dimension of feature vectors=3
+Output filename=ubm.dat
+Training utterances=names.txt
+
+"Inicialization" é a forma de iniciar o treinamento. Use "SegmentalKMeans" para iniciar um novo treinamento. Use "PreTrainedGMM" no caso de querer continuar um treinamento interrompido por alguma razão (caiu a energia por exemplo); neste caso, você tem que fornecer o nome do arquivo onde está o GMM para a variável "Pre-trained GMM" (no caso, escolhi "ubm.dat").
+
+"Number of Gaussians" é o número de gaussianas na mistura. Use o mesmo que usou para os HMMs.
+
+"Dimension of feature vectors": acho que no seu caso é 36 (12 mel + 12 delta-mel + 12 delta-delta mel).
+
+"Output filename": nome do arquivo onde serão armazenados os dados do GMM treinado. Esse você escolhe do jeito que achar mais conveniente.
+
+"Training utterances" nome de um arquivo texto com os nomes dos arquivos que armazenam as locuções de treinamento PARAMETRIZADAS. Observe que não são os arquivo .wav, e sim os arquivos com mel+delta+deltadelta. 
+
+IMPORTANTE: este programa assume que os vetores e parâmetros estão em formato float.
+
+

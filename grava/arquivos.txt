@@ -1,0 +1,13 @@
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_F01_093302.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_F01_168_436.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_F02_133879.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_F02_198_955.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_F03_099025.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_F03_194_759.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_M01_190_808.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_M02_092456.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_M02_224_590.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_M03_196_405.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_M04_174_138.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/60s_M05_093285.mel
+/home/ynoguti/Pesquisa/SpeakerRecognition/teste/teste/arquivos.txt
